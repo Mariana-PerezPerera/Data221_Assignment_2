@@ -25,7 +25,7 @@ for token in tokens:
 #first create an empty list for the bigrams:
 bigrams = []
 
-#use a for loo[ to store them as a tuple so we can then count them:
+#use a for loop to store them as a tuple so we can then count them:
 for i in range(len(cleaned_tokens)- 1):
     bigram = cleaned_tokens[i], cleaned_tokens[i+1]
     bigrams.append(bigram)
