@@ -1,10 +1,19 @@
 Question1: This file contains code that opens the 'sample-file' in read mode and splits the text into tokens. The tokens are converted into lowercase and the punctuation is removed. Then the tokens that satisfy the conditions outlined in the question are counted and the 10 most frequent words are printed.
+
 Question2: File 2 opens and reads the 'sample-file' as well and does the same operations as File 1 of splitting it up into tokens and converting them into lowercase and removing the punctuation. The final output is the 5 most frequent bigrams that were counted after being stored into a tuple.
+
 Question3: This file also opens and reads the same 'sample-file' but goes through each line and converts them all to lowercase, removes the white space and punctuation. The original line has to be stored back with the corresponding line number so then the number of near-duplicate sets as well as what they actually contain can be printed.
+
 Question4: This file is creating a DataFrame from the 'student.csv' file and filtering through the data. A new csv file called, 'high_engagement.csv' is created in order to store the high engagement information as well as print it.
+
 Question5: File 5 is also creating a DataFrame from the same 'student.csv' file and creating a new column and grouped summary table. The percentage is calculated and saved in the table which is then saved to a new csv file called 'student_bands.csv'.
+
 Question6: This file is creating a DataFrame from the 'crime.csv' file and adding on a new column. The average unemployment rate is calculated after grouping by risk and then printed.
+
 Question7: This file is extracting information from a webpage and parsing the html. The page title is extracted and printed. Then the first paragraph that meets the condition of being over 50 characters is extracted and printed. 
+
 Question8: This file is extracting from a webpage as well and parsing the html. After the main content area is found, certain words are excluded and the headings are extracted and added into an empty list. These headings are saved into a new file called 'headings.txt'.
+
 Question9: File 9 is extracting information from a webpage as well and parsing the html. The main content is found and two new empty lists for the headers and table data are created. The headers are extracted after making sure that the table has at least 3 data rows and then the data rows are extracted after. Everything is then saved into a new csv file named, 'wiki_table.csv'.
+
 Question10: File 10 is creating a function that will search within the given text files. The given file is opened in read mode and making sure it starts from the first line. The function is then tested with the 'sample-file.txt' file to make sure it works correctly. Then the amount of matching lines are searched for and if there are any matching lines the first 3 will be printed.
