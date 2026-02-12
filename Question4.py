@@ -15,9 +15,9 @@ filtered_DataFrame = data_frame[
 filtered_DataFrame.to_csv("high_engagement.csv", index=False)
 
 #now we are going to print the number of students that were saved to the csv:
-number_of_students = len(filtered_DataFrame)
-print(f"Students that are highly engaged:", number_of_students)
+number_of_highly_engaged_students = len(filtered_DataFrame)
+print(f"Students that are highly engaged:", number_of_highly_engaged_students)
 
 #now we print the average grade:
-average_grade = filtered_DataFrame["grade"].mean()
-print(f"Average high engagement of students:",average_grade)
+average_grade_of_high_engagement = filtered_DataFrame["grade"].mean()
+print(f"Average high engagement of students:",average_grade_of_high_engagement)
