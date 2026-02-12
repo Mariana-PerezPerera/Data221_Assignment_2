@@ -4,7 +4,7 @@ def find_lines_containing(filename, keyword):
     #creating an empty list that will have the matches:
     matches = []
 
-#opening the rile in read mode:
+#opening the file in read mode:
     with open(filename, "r") as file:
         #making sure it starts at line 1:
         for line_number, line in enumerate(file, start=1):

@@ -20,6 +20,7 @@ content_div = parsed_html.find("div", id="mw-content-text")
 table_data = []
 headers_row = []
 
+#going through the conditions of the webpage in order to create the table::
 if content_div:
     tables = content_div.find_all("table")
 

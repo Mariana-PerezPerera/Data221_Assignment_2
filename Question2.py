@@ -37,4 +37,4 @@ bigram_frequency = Counter(bigrams)
 for (word1, word2), count in bigram_frequency.most_common(5):
     print(f"{word1} {word2} -> {count}")
 
-
+file.close()

@@ -36,3 +36,5 @@ for set_number, duplicate_sets in enumerate(sets_near_duplicates[:2], start=1):
     for line_number, original_line in duplicate_sets:
         print(f"{line_number}: {original_line}")
     print()
+
+file.close()

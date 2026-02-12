@@ -30,8 +30,8 @@ content_div = parsed_html.find("div", id= "mw-content-text")
 if content_div:
     paragraphs = content_div.findAll("p")
 
-    for p in paragraphs:
-        text = p.get_text(strip=True)
+    for paragraph in paragraphs:
+        text = paragraph.get_text(strip=True)
         #making sure the rule of 50 characters is upheld:
         if len(text) >= 50:
             print("\nFirst paragraph (50+ characters):")
